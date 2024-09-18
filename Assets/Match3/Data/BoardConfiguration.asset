@@ -1,0 +1,615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd9d48446c75a964f94b3fe3fcd4b49c, type: 3}
+  m_Name: BoardConfiguration
+  m_EditorClassIdentifier: 
+  tileGap: 0.5
+  animationSpeed: 25
+  selectedBoardIndex: 0
+  levelDatas:
+  - levelName: Level 0
+    width: 9
+    height: 9
+    challenge:
+      description: 
+      moveLimit: 0
+      moveUsed: 0
+      status: 0
+      targetTile1:
+        tileName: 0
+        amount: 0
+      targetTile2:
+        tileName: 0
+        amount: 0
+      progressTile1:
+        tileName: 0
+        amount: 0
+      progressTile2:
+        tileName: 0
+        amount: 0
+      skipMove: 0
+    tilesPlacementData:
+    - x: 0
+      y: 0
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 0
+      y: 1
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 0
+      y: 2
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 0
+      y: 3
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 0
+      y: 4
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 0
+      y: 5
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 0
+      y: 6
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 0
+      y: 7
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 0
+      y: 8
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 1
+      y: 0
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 1
+      y: 1
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 1
+      y: 2
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 1
+      y: 3
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 1
+      y: 4
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 1
+      y: 5
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 1
+      y: 6
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 1
+      y: 7
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 1
+      y: 8
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 2
+      y: 0
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 2
+      y: 1
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 2
+      y: 2
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 2
+      y: 3
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 2
+      y: 4
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 2
+      y: 5
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 2
+      y: 6
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 2
+      y: 7
+      tileType: 0
+      tileName: 4
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 3f7ae729aa7a312409453530011fb44e, type: 3}
+    - x: 2
+      y: 8
+      tileType: 0
+      tileName: 4
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 3f7ae729aa7a312409453530011fb44e, type: 3}
+    - x: 3
+      y: 0
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 3
+      y: 1
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 3
+      y: 2
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 3
+      y: 3
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 3
+      y: 4
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 3
+      y: 5
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 3
+      y: 6
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 3
+      y: 7
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 3
+      y: 8
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 4
+      y: 0
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 4
+      y: 1
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 4
+      y: 2
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 4
+      y: 3
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 4
+      y: 4
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 4
+      y: 5
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 4
+      y: 6
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 4
+      y: 7
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 4
+      y: 8
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 5
+      y: 0
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 5
+      y: 1
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 5
+      y: 2
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 5
+      y: 3
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 5
+      y: 4
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 5
+      y: 5
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 5
+      y: 6
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 5
+      y: 7
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 5
+      y: 8
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 6
+      y: 0
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 6
+      y: 1
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 6
+      y: 2
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 6
+      y: 3
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 6
+      y: 4
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 6
+      y: 5
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 6
+      y: 6
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 6
+      y: 7
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 6
+      y: 8
+      tileType: 0
+      tileName: 5
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: a736d253ecc9595428d1e429a88fa307, type: 3}
+    - x: 7
+      y: 0
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 7
+      y: 1
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 7
+      y: 2
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 7
+      y: 3
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 7
+      y: 4
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 7
+      y: 5
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 7
+      y: 6
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 7
+      y: 7
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 7
+      y: 8
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 8
+      y: 0
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 8
+      y: 1
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 8
+      y: 2
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 8
+      y: 3
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 8
+      y: 4
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 8
+      y: 5
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 8
+      y: 6
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 8
+      y: 7
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    - x: 8
+      y: 8
+      tileType: 0
+      tileName: 0
+      powerUpType: 0
+      tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+  tilesData:
+  - tileIcon: {fileID: 21300000, guid: 7b6d6b68dead3244284ece9065d5d375, type: 3}
+    tileType: 0
+    tileName: 0
+    powerUpType: 0
+  - tileIcon: {fileID: 21300000, guid: 0fdad06799472ff468b476ba835a20c6, type: 3}
+    tileType: 0
+    tileName: 1
+    powerUpType: 0
+  - tileIcon: {fileID: 21300000, guid: ddb63f76c94ed1c4ea7d4b01e89647b8, type: 3}
+    tileType: 0
+    tileName: 2
+    powerUpType: 0
+  - tileIcon: {fileID: 21300000, guid: f47a3b00a94777d4e976cb768b6015b9, type: 3}
+    tileType: 0
+    tileName: 3
+    powerUpType: 0
+  - tileIcon: {fileID: 21300000, guid: 3f7ae729aa7a312409453530011fb44e, type: 3}
+    tileType: 0
+    tileName: 4
+    powerUpType: 0
+  - tileIcon: {fileID: 21300000, guid: a736d253ecc9595428d1e429a88fa307, type: 3}
+    tileType: 0
+    tileName: 5
+    powerUpType: 0
+  - tileIcon: {fileID: 21300000, guid: d490049e0e5255e4389e420627d4df44, type: 3}
+    tileType: 0
+    tileName: 6
+    powerUpType: 0
+  - tileIcon: {fileID: 21300000, guid: efacfd77c5eda2e42858627ba09387d9, type: 3}
+    tileType: 1
+    tileName: 7
+    powerUpType: 1
+  - tileIcon: {fileID: 21300000, guid: 2eb6cafd5a6cfb640a0682401467f06e, type: 3}
+    tileType: 1
+    tileName: 8
+    powerUpType: 2
+  - tileIcon: {fileID: 21300000, guid: 4d8d40c38ea3d9145854ee1169798c8b, type: 3}
+    tileType: 1
+    tileName: 9
+    powerUpType: 3
+  - tileIcon: {fileID: 21300000, guid: 79a57436bc3b4d9409d0c30f85f17edf, type: 3}
+    tileType: 1
+    tileName: 10
+    powerUpType: 4
+  - tileIcon: {fileID: 21300000, guid: 719cc00f64895cf4d883ac20ab406cf0, type: 3}
+    tileType: 1
+    tileName: 11
+    powerUpType: 5
+  - tileIcon: {fileID: 21300000, guid: b03d91044aa110744b9e06788ccfe28f, type: 3}
+    tileType: 2
+    tileName: 12
+    powerUpType: 0
+  tilePrefab: {fileID: 1965717440535672280, guid: d114baa4dafd8a740858031d2d803bd1,
+    type: 3}
+  powerUpTilePrefab: {fileID: 3445422729878104351, guid: c7214a7178ceb064ba7c89ee06a1d8cb,
+    type: 3}
+  emptyTilePrefab: {fileID: -2131088944201647972, guid: 4681649aadd028243b5fbb73c8823cd0,
+    type: 3}
+  tileBackgroundPrefab: {fileID: 7148393223614497423, guid: 8d4b7806093fdde4f8bd608ef58072c2,
+    type: 3}
+  boosterData:
+  - boosterType: 0
+    boosterIcon: {fileID: 21300000, guid: 97124cfa3ebd5614b9bc1d79d2a34c6a, type: 3}
+    amount: 1
+  - boosterType: 1
+    boosterIcon: {fileID: 21300000, guid: 299b0b266f98b52478c48eac2b85b182, type: 3}
+    amount: 2
+  - boosterType: 2
+    boosterIcon: {fileID: 21300000, guid: 5d5d01befd5c0cf47a3d59ff1bb1bd78, type: 3}
+    amount: 6
+  Challenge:
+    description: 
+    moveLimit: 0
+    moveUsed: 0
+    status: 0
+    targetTile1:
+      tileName: 0
+      amount: 0
+    targetTile2:
+      tileName: 0
+      amount: 0
+    progressTile1:
+      tileName: 0
+      amount: 0
+    progressTile2:
+      tileName: 0
+      amount: 0
+    skipMove: 0
